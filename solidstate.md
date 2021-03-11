@@ -40,10 +40,11 @@ PORT   STATE SERVICE
 
 Port 80 - HTTP
 The website belongs to Solid State Security. 
-[PIC]
+![image](https://user-images.githubusercontent.com/58801175/110847059-50903a00-8261-11eb-9762-a9de5cfca573.png)
 
 There is a form on the front page with name, email, message fields. When submitted, the POST request is sent to `/`. I don't believe there is anything to be explored here.
-[PIC]
+![image](https://user-images.githubusercontent.com/58801175/110847102-5b4acf00-8261-11eb-8b3e-934d4b72bc02.png)
+
 
 Using `gobuster` to bruteforce web directories.
 ```
@@ -308,4 +309,5 @@ except:
 ```
 
 Getting root
-![] (https://ibb.co/Z6GFY71)
+![image](https://user-images.githubusercontent.com/58801175/110847148-6aca1800-8261-11eb-93d8-62c3ea91c1df.png)
+
