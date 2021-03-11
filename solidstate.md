@@ -308,4 +308,4 @@ except:
 ```
 
 Getting root
-[PIC]
+![] (https://ibb.co/Z6GFY71)
