@@ -1,6 +1,6 @@
 Solidstate Writeup
 
-Recon
+# Recon
 
 `nmap` scans show that Ports 22,25,80,110,119,4555 are open.
 
@@ -246,6 +246,8 @@ username: mindy
 pass: P@55W0rd1!2@
 ```
 
+# Low Priv Shell
+
 Connecting to SSH with mindy's credentials
 ```
 root@kali# ssh mindy@10.10.10.51 -t bash
@@ -295,7 +297,7 @@ try:
 except:
 	sys.exit()
 ```
-
+# Escalating Privileges
 Looking at /tmp/ I saw there was a file created named `rrrr` which is owned by root, which makes me believe `/opt/tmp.py` is being ran by a hidden cronjob.
 
 Since I have write permissions and `/opt/tmp.py` is owned by root, I will edit the script and set the SUID bit on `/bin/dash` to spawn a root shell.
