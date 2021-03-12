@@ -306,7 +306,7 @@ import os
 import sys
 try:
 	
-	os.system('chmod +u+s /bin/dash')
+	os.system('chmod u+s /bin/dash')
 except:
 	sys.exit()
 ```
