@@ -298,8 +298,7 @@ except:
 	sys.exit()
 ```
 # Escalating Privileges
-Looking at /tmp/ I saw there was a file created named `rrrr` which is owned by root, which makes me believe `/opt/tmp.py` is being ran by a hidden cronjob.
-
+Looking at /tmp/ I saw there was a file created named `rrrr` which is owned by root, which made me believe `/opt/tmp.py` is being ran by a hidden cronjob.
 Since I had write permissions and `/opt/tmp.py` is owned by root, I edited the script and set the SUID bit on `/bin/dash` to spawn a root shell.
 ```
 #!/usr/bin/env python
