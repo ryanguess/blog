@@ -64,7 +64,7 @@ I didn't find anything interesting, so I'll move on to exploring a different ser
 
 Port 4555,119,110,25 - James Mail Server
 
-The `nmap SMTP scan` shows that `root` is a valid user. I'll try default credentials for James Remote Admin Tool on Port 4555.
+The `nmap SMTP scan` shows that `root` is a valid user. I decided try default credentials for James Remote Admin Tool on Port 4555.
 
 Connecting to James Mail Server via `netcat` using `root:root`.
 ```
@@ -120,7 +120,7 @@ setpassword mindy r00t3d
 setpassword mailadmin r00t3d
 ```
 
-Now, I'll try use `telnet` to connect to POP3 to check the mails for each user.
+Now, I used `telnet` to connect to POP3 to check the mails for each user.
 
 ```
 root@kali# telnet 10.10.10.51 110
@@ -136,7 +136,7 @@ LIST
 1 743
 ```
 
-Use `RETR` to read the mail
+Using `RETR` to read the mail
 
 ```
 RETR 1
@@ -164,7 +164,7 @@ Respectfully,
 James
 ```
 
-Looks like someone is going to email mindy a temporary password. I'll take a look at mindy's mail to see if that's the case.
+Looks like someone is going to email mindy a temporary password. I took a look at mindy's mail to see if that was the case.
 
 ```
 root@kali# telnet 10.10.10.51 110
@@ -240,7 +240,7 @@ Respectfully,
 James
 ```
 
-Now we have mindy's SSH credentials.
+Now I have mindy's SSH credentials.
 ```
 username: mindy
 pass: P@55W0rd1!2@
@@ -300,7 +300,7 @@ except:
 # Escalating Privileges
 Looking at /tmp/ I saw there was a file created named `rrrr` which is owned by root, which makes me believe `/opt/tmp.py` is being ran by a hidden cronjob.
 
-Since I have write permissions and `/opt/tmp.py` is owned by root, I will edit the script and set the SUID bit on `/bin/dash` to spawn a root shell.
+Since I had write permissions and `/opt/tmp.py` is owned by root, I edited the script and set the SUID bit on `/bin/dash` to spawn a root shell.
 ```
 #!/usr/bin/env python
 import os
