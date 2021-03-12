@@ -1,4 +1,4 @@
 ## HackTheBox Writeups
-[SolidState]: https://hacked.cx/solidstate
+[SolidState](https://hacked.cx/solidstate)
 
 ## VulnHub Writeups
