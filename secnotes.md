@@ -113,10 +113,11 @@ smbmap -H 10.10.10.97 -u tyler -p '92g!mA8BGjOirkL%OG*&' -r "new-site"
 	fr--r--r--              696 Thu Jun 21 13:15:36 2018	iisstart.htm
 	fr--r--r--            98757 Thu Jun 21 13:15:38 2018	iisstart.png
 ```
-There's nothing of interest in there, but we know the new site is running on Port 8808 from browsing to it earlier we saw the default IIS page.
-Let's see if new-site is running on port 8808.
+There's nothing of interest in there, but I assume new-site is running on Port 8808 from browsing to it earlier we saw the default IIS page.
 
 **Port 8808**
+
+Verifying new-site is running on Port 8808 by uploading a simple text file and curling it.
 
 Upload test.txt and curl it.
 ```
