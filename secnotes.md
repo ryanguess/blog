@@ -84,6 +84,7 @@ tyler / 92g!mA8BGjOirkL%OG*&
 **SMB/Port 445**
 
 Using smbmap to check the privileges with tyler's account
+
 note: using single quotes to wrap the password in allows us to bypass the exclamation mark which bash terminals interpret it as "Not" (like in boolean)
 
 ```
