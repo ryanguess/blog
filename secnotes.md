@@ -79,6 +79,8 @@ Opening the "new site" note reveals some credentials and what looks to be an smb
 tyler / 92g!mA8BGjOirkL%OG*&
 ```
 
+
+
 **SMB/Port 445**
 
 Using smbmap to check the privileges with tyler's account
