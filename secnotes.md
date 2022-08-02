@@ -113,8 +113,10 @@ smbmap -H 10.10.10.97 -u tyler -p '92g!mA8BGjOirkL%OG*&' -r "new-site"
 	fr--r--r--            98757 Thu Jun 21 13:15:38 2018	iisstart.png
 ```
 There's nothing of interest in there, but we know the new site is running on Port 8808 from browsing to it earlier we saw the default IIS page.
-The site running on port 80 is using php, I'll assume port 8808 is also using php. 
-Let's test the theory that the new-site is running on port 8808
+Let's see if new-site is running on port 8808.
+
+**Port 8808**
+
 Upload test.txt and curl it.
 ```
 echo test > test.txt
@@ -123,8 +125,7 @@ put test.txt
 └─# curl http://10.10.10.97:8808/test.txt
 test
 ```
-
-The theory seems to be true, time to upload a shell.
+Looks like new-site is running on port 8808
 
 Uploading shell via smb
 Shell used: [https://gist.githubusercontent.com/joswr1ght/22f40787de19d80d110b37fb79ac3985/raw/50008b4501ccb7f804a61bc2e1a3d1df1cb403c4/easy-simple-php-webshell.php]()
