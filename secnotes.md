@@ -158,6 +158,7 @@ whoami
 
 # Privilege Escalation
 
+**From user tyler to root, and from root to system**
 
 There is a link to bash on tyler's desktop
 ```
