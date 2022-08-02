@@ -4,7 +4,7 @@
 **Machine Details**
 
 SecNotes is a Windows machine that is running IIS web server on Ports 80 and 8808. The initial foothold is made by an XRSF attack against the webadmin admin, "Tyler", who clicks a link that we craft to change the password to his account. Once the link is clicked, we login to his account and see there are some credentials for an SMB account with a share that we have READ/WRITE privileges. We then upload a shell and netcat to get a reverse shell.
-Once we have a reverse shell, browsing to Tyler's desktop exposes a .lnk file linking to bash.exe that is missing, after searching for the missing bash.exe we find it in a different directory, executing it spawns a bash shell with root privileges. Once spawned into the bash shell, reading .bash_history exposes Administrator's credentials which can be used multiple ways, I used psexec.py to spawn a root shell and get the root flag.
+Once we have a reverse shell, browsing to Tyler's desktop exposes a .lnk file linking to bash.exe that is missing, after searching for the missing bash.exe we find it in a different directory, executing it spawns a bash shell with root privileges. Once spawned into the bash shell, reading .bash_history exposes Administrator's credentials which can be used multiple ways. I used psexec.py to spawn a root shell and get the root flag.
 
 # Recon
 
