@@ -126,6 +126,7 @@ The theory seems to be true, time to upload a shell.
 
 Uploading shell via smb
 Shell used: https://gist.githubusercontent.com/joswr1ght/22f40787de19d80d110b37fb79ac3985/raw/50008b4501ccb7f804a61bc2e1a3d1df1cb403c4/easy-simple-php-webshell.php
+
 Upload nc.exe
 ```
 └─#  cp /usr/share/windows-resources/binaries/nc.exe .                                                                         1 ⚙
