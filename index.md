@@ -6,4 +6,3 @@
 ## VulnHub Writeups
 
 ## Other
-[Windows-Exploit-Suggester fix](https://hacked.cx/windows-exploit-suggester)
