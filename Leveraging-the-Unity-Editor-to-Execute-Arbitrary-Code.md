@@ -132,7 +132,7 @@ The latest Unity Hub can be found [here](https://unity.com/unity-hub)
 
 2. Select *3D* template, you can choose any template but I will use the 3D template in my demonstration.
 
-![PoCGif](https://i.ibb.co/vYh6LqY/poc-ezgif-com-speed.gif))
+![PoCGif](https://i.ibb.co/vYh6LqY/poc-ezgif-com-speed.gif)
 
 ### Conclusion
 
