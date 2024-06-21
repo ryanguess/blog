@@ -1,13 +1,12 @@
 # Leveraging the Unity Editor to Execute Arbitrary Code
 
-### Introduction
 
-#### Overview of Unity Editor
+### Overview of Unity Editor
 
 The Unity Editor is a comprehensive development environment used for creating interactive 2D and 3D content, such as video games, simulations, and other visual experiences. It provides a robust set of tools for asset import, scene creation, animation, and scripting. Unity supports multiple platforms, allowing developers to build applications for PC, consoles, mobile devices, and VR/AR systems. With an intuitive interface and a powerful API, Unity Editor is widely used by developers, gamers, artists, and designers to bring their creative visions to life efficiently and collaboratively.
 
 
-#### Purpose of my Research
+### Purpose of my Research
 
 The purpose of this research emerged after encountering a video on YouTube. The video featured a group of individuals boasting about their ability to spread malware within Virtual Reality gaming communities, specifically VRChat. I believe one of the ways they are accomplishing this is by releasing infected Unity packages. My research aims to explore how the Unity Editor can be leveraged to execute arbitrary code and raise awareness to prevent such malicious activities. 
 
@@ -125,7 +124,7 @@ public class AutoLaunchCalculator
 
 
 
-#### Create Unity Project
+### Create Unity Project
 
 1. Within Unity Hub, Click *New Project*
 The latest Unity Hub can be found [here](https://unity.com/unity-hub)
