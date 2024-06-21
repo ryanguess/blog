@@ -135,7 +135,7 @@ The latest Unity Hub can be found [here](https://unity.com/unity-hub)
 
 ### Conclusion
 
-While Unity doesn't provide a direct method for disabling the compilation or execution of arbitrary code within the Unity Editor, this research highlights significant security vulnerabilities that can be exploited if malicious actors gain the ability to execute arbitrary code. This study demonstrated how the [InitializeOnLoad] attribute can be used to run scripts automatically upon the editor's startup, which could potentially be leveraged to launch malicious operations, such as spreading malware within Unity-based projects.
+While Unity doesn't provide a direct method for disabling the compilation or execution of arbitrary code within the Unity Editor, this research highlights significant security vulnerabilities that can be exploited if malicious actors embed malicious code within a unity project. This study demonstrated how the [InitializeOnLoad] attribute can be used to run scripts automatically upon the editor's startup, which could potentially be leveraged to launch malicious operations, such as spreading malware within Unity-based projects.
 
 The findings underline the importance of being mindful of the risks and consequences when importing packages from untrusted sources. By raising awareness of these potential threats we can help mitigate the risks associated with them. As the landscape of digital content creation continues to evolve, so too must our proactive efforts to safeguard and bring awareness to these threats.
 
