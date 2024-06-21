@@ -50,7 +50,7 @@ I wrote a basic script which executes `calc.exe` to demonstrate my PoC.
 using System;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
-using UnityEditor;`
+using UnityEditor;
 ```
 
 - These namespaces are included to use necessary classes and methods for process handling, interoperability, and Unity Editor attributes.
