@@ -135,7 +135,7 @@ The latest Unity Hub can be found [here](https://unity.com/unity-hub)
 3) You can now export the project as a `.unitypackage` with your script and whenever it is opened within the unity editor, it will automatically compile and execute.
 
 
-### Conclusion
+## Conclusion
 
 While Unity doesn't provide a direct method for disabling the compilation or execution of arbitrary code within the Unity Editor, this research highlights significant security vulnerabilities that can be exploited if malicious actors embed malicious code within a unity project. This study demonstrated how the [InitializeOnLoad] attribute can be used to run scripts automatically upon the editor's startup, which could potentially be leveraged to launch malicious operations, such as spreading malware within Unity-based projects.
 
