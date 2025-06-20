@@ -5,12 +5,6 @@
 
 The Unity Editor is a comprehensive development environment used for creating interactive 2D and 3D content, such as video games, simulations, and other visual experiences. It provides a robust set of tools for asset import, scene creation, animation, and scripting. Unity supports multiple platforms, allowing developers to build applications for PC, consoles, mobile devices, and VR/AR systems. With an intuitive interface and a powerful API, Unity Editor is widely used by developers, gamers, artists, and designers to bring their creative visions to life efficiently and collaboratively.
 
-
-### Purpose of my Research
-
-The purpose of this research emerged after encountering a video on YouTube. The video featured a group of individuals boasting about their ability to spread malware within Virtual Reality gaming communities, specifically VRChat. I believe one of the ways they are accomplishing this is by releasing infected Unity packages. My research aims to explore how the Unity Editor can be leveraged to execute arbitrary code and raise awareness to prevent such malicious activities. 
-
-
 ## Let's Explore How it Works
 
 The focus of this research was to determine how the Unity Editor can be exploited to execute arbitrary code, allowing malicious actors to spread malware by embedding malicious C# in a unity package. By leveraging the `InitializeOnLoad` attribute, which triggers code execution when the Unity Editor starts, we explore how a seemingly benign Unity package could contain harmful scripts. The following research aims to demonstrate the steps needed to inject and execute code.
@@ -139,11 +133,4 @@ The latest Unity Hub can be found [here](https://unity.com/unity-hub)
 
 While Unity doesn't provide a direct method for disabling the compilation or execution of arbitrary code within the Unity Editor, this research highlights significant security vulnerabilities that can be exploited if malicious actors embed malicious code within a unity project. This study demonstrated how the [InitializeOnLoad] attribute can be used to run scripts automatically upon the editor's startup, which could potentially be leveraged to launch malicious operations, such as spreading malware within Unity-based projects.
 
-The findings underline the importance of being mindful of the risks and consequences when importing packages from untrusted sources. By raising awareness of these potential threats we can help mitigate the risks associated with them. As the landscape of digital content creation continues to evolve, so too must our proactive efforts to safeguard and bring awareness to these threats.
-
-#### About me
-
-I'm just doing my thing. 
-Connect with me on x
-https://x.com/arjay
 
