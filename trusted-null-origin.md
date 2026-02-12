@@ -92,5 +92,5 @@ Remove `null` from allowed origins and implement strict origin validation.
 
 ## Conclusion
 
-There are way smarter people writing way better content than me. Go read PortSwigger's actual research, James Kettle's conference talks, or literally anything from the people who discovered this stuff in the first place. I'm just here restating the obvious because apparently in 2025 we're still putting `null` in allowed origins lists.
+There are way smarter people writing way better content than me. Go read PortSwigger's actual research, James Kettle's conference talks, or literally anything from the people who discovered this stuff in the first place. I'm just here restating the obvious because apparently in 2026 we're still putting `null` in allowed origins lists.
 
