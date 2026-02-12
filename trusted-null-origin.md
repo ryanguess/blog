@@ -90,9 +90,7 @@ This works because:
 
 Remove `null` from allowed origins and implement strict origin validation.
 
-## Technical References
+## Conclusion
 
-- [OWASP CORS Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/CORS_Cheat_Sheet.html)
-- [PortSwigger Web Security Academy - CORS](https://portswigger.net/web-security/cors)
-- [MDN Web Docs - CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
-- [W3C CORS Specification](https://www.w3.org/TR/cors/)
+There are way smarter people writing way better content than me. Go read PortSwigger's actual research, James Kettle's conference talks, or literally anything from the people who discovered this stuff in the first place. I'm just here restating the obvious because apparently in 2025 we're still putting `null` in allowed origins lists.
+
