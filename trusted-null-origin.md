@@ -14,7 +14,7 @@ Access-Control-Allow-Origin: null
 Access-Control-Allow-Credentials: true
 ```
 
-This configuration allows any request with `Origin: null` to bypass same-origin policy restrictions and access sensitive data with the victim's credentials.
+This configuration allows any request with `Origin: null` to bypass same-origin policy restrictions, potentially allowing attackers to access sensitive resources.
 
 ## Why This Matters
 
