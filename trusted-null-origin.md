@@ -1,5 +1,4 @@
 # Trusted Null Origin - Leveraging Misconfigured CORS to Bypass SOP Restrictions
-## The Vulnerability
 
 CORS (Cross-Origin Resource Sharing) policies use the `Access-Control-Allow-Origin` header to specify which origins can access a resource. This header accepts three types of values:
 
